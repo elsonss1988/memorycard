@@ -15,6 +15,10 @@ body{
     display:flex;
     flex-wrap:wrap;
 }
+.card:active{
+    transform:scale(0.97);
+    transition: transform .3s;
+}
 .card{
     height:calc(33.333% - 10px);
     width: calc(25% - 10px);
